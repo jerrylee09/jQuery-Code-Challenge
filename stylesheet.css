@@ -1,0 +1,18 @@
+spy1 {
+	background-color: red;
+}
+spy2 {
+	background-color: green;
+}
+spies {
+	background-color: gray;
+}
+
+.red {
+	background-color: red;
+	color: red;
+}
+.green {
+	background-color: green;
+	color: green;
+}
