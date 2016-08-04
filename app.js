@@ -14,7 +14,7 @@ var inform = "New spies";
 // };
 
 function addSpy() {
-	$('#spies').append('<div class="green">  ' + inform + '  <button class="btn btn-default" ' + 'id="remove-spy">Delete</button>' +  ' <button class="btn btn-default" ' + 'id="change-color">Change Color</button>' + '</div>');
+	$('#spies').append('<div class="yellow">  ' + inform + '  <button class="btn btn-default" ' + 'id="remove-spy">Delete</button>' +  ' <button class="btn btn-default" ' + 'id="change-color">Change Color</button>' + '</div>');
 }
 function removeSpy() {
 	$(this).parent().remove();
@@ -26,11 +26,13 @@ function changeColor() {
 	console.log('this have been click', colorClass);
 
 
+// I was trying to make a toggle color change for the change button
+
 	// if (colorClass ==red) {
-	//   $(this).parent().addClass('green');
+	//   $(this).parent().addClass('yellow');
 	//   $(this).parent().removeClass( 'red' );
 	// } else if (colorClass ==red) {
-	//   $(this).parent().addClass('green');
+	//   $(this).parent().addClass('yellow');
 	//   $(this).parent().removeClass( 'red' );
 	// }
 }
@@ -39,7 +41,7 @@ function changeColor() {
 // function diffColor() {
 // 	var myColor = $(this).className;
 // 	if(myColor == "red"){
-// 		$(this).addClass('green');
+// 		$(this).addClass('yellow');
 // 	} else {
 // 		$(this).addClass('red');
 // 	}
